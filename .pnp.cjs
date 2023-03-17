@@ -28,7 +28,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["@rails/webpacker", "npm:5.4.4"],\
+            ["bootstrap", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:5.2.3"],\
+            ["jquery", "npm:3.6.4"],\
+            ["jquery-ujs", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:1.2.3"],\
             ["webpack", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:4.46.0"],\
             ["webpack-cli", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:3.3.12"],\
             ["webpack-dev-server", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:3.11.3"]\
@@ -2341,6 +2345,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["@popperjs/core", [\
+        ["npm:2.11.6", {\
+          "packageLocation": "./.yarn/cache/@popperjs-core-npm-2.11.6-5bcdc104bd-47fb328cec.zip/node_modules/@popperjs/core/",\
+          "packageDependencies": [\
+            ["@popperjs/core", "npm:2.11.6"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["@rails/webpacker", [\
         ["npm:5.4.4", {\
           "packageLocation": "./.yarn/cache/@rails-webpacker-npm-5.4.4-f76783368a-9344aac9e5.zip/node_modules/@rails/webpacker/",\
@@ -3378,6 +3391,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/boolbase-npm-1.0.0-965fe9af6d-3e25c80ef6.zip/node_modules/boolbase/",\
           "packageDependencies": [\
             ["boolbase", "npm:1.0.0"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["bootstrap", [\
+        ["npm:5.2.3", {\
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.2.3-7458283a23-0211805dec.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "npm:5.2.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:5.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/bootstrap-virtual-abb4d88419/0/cache/bootstrap-npm-5.2.3-7458283a23-0211805dec.zip/node_modules/bootstrap/",\
+          "packageDependencies": [\
+            ["bootstrap", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:5.2.3"],\
+            ["@popperjs/core", "npm:2.11.6"],\
+            ["@types/popperjs__core", null]\
+          ],\
+          "packagePeers": [\
+            "@popperjs/core",\
+            "@types/popperjs__core"\
           ],\
           "linkType": "HARD"\
         }]\
@@ -7088,6 +7123,37 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["jquery", [\
+        ["npm:3.6.4", {\
+          "packageLocation": "./.yarn/cache/jquery-npm-3.6.4-c665e9b5ea-8354f7bd0a.zip/node_modules/jquery/",\
+          "packageDependencies": [\
+            ["jquery", "npm:3.6.4"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["jquery-ujs", [\
+        ["npm:1.2.3", {\
+          "packageLocation": "./.yarn/cache/jquery-ujs-npm-1.2.3-d166d8749a-6174edc30b.zip/node_modules/jquery-ujs/",\
+          "packageDependencies": [\
+            ["jquery-ujs", "npm:1.2.3"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:1.2.3", {\
+          "packageLocation": "./.yarn/__virtual__/jquery-ujs-virtual-4f4b46880b/0/cache/jquery-ujs-npm-1.2.3-d166d8749a-6174edc30b.zip/node_modules/jquery-ujs/",\
+          "packageDependencies": [\
+            ["jquery-ujs", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:1.2.3"],\
+            ["@types/jquery", null],\
+            ["jquery", "npm:3.6.4"]\
+          ],\
+          "packagePeers": [\
+            "@types/jquery",\
+            "jquery"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["js-tokens", [\
         ["npm:4.0.0", {\
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-8a95213a5a.zip/node_modules/js-tokens/",\
@@ -10155,7 +10221,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["sample_app", "workspace:."],\
+            ["@popperjs/core", "npm:2.11.6"],\
             ["@rails/webpacker", "npm:5.4.4"],\
+            ["bootstrap", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:5.2.3"],\
+            ["jquery", "npm:3.6.4"],\
+            ["jquery-ujs", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:1.2.3"],\
             ["webpack", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:4.46.0"],\
             ["webpack-cli", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:3.3.12"],\
             ["webpack-dev-server", "virtual:bcf7cd838854c266f64f44ccec57f4ae5607fcdaa0e523a9edbc0a1a648de322f8f5e99787f0d5fed5ae4f85438c7e63982f2b3982cf123f42852b13ebebc16f#npm:3.11.3"]\
