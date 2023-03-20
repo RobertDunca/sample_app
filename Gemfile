@@ -14,6 +14,9 @@ gem 'turbolinks'
 gem 'jbuilder'
 gem 'bootsnap', require: false
 gem "importmap-rails", "~> 1.1"
+gem 'faker', "~> 3.1.1"
+gem 'will_paginate', '~> 3.3'
+gem 'will_paginate-bootstrap-style'
 
 group :development, :test do
   gem 'sqlite3', "~> 1.4"
