@@ -16,7 +16,8 @@ is available jointly under the MIT License and the Beerware License. See
 To get started with the app, clone the repo and then install the needed gems:
 
 ```
-$ bundle install --without production
+$ bundle config set --local without 'production'
+$ bundle install
 ```
 
 Next, migrate the database:
